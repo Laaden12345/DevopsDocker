@@ -1,0 +1,5 @@
+docker run -d devopsdockeruh/exec_bash_exercise
+docker ps -a
+docker exec -it epic_wu bash
+Secret message is:
+"Docker is easy"
