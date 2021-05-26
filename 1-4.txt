@@ -1,5 +1,1 @@
-docker run -d devopsdockeruh/exec_bash_exercise
-docker ps -a
-docker exec -it epic_wu bash
-Secret message is:
-"Docker is easy"
+docker run --rm -it ubuntu sh -c 'apt-get update && apt-get install curl -y; echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website;'
